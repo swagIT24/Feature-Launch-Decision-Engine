@@ -1,4 +1,4 @@
-# 🚀 AI Feature Launch Decision Engine
+# Feature Launch Decision Engine
 
 A product experimentation framework designed to evaluate AI-powered feature rollouts before production deployment.
 
