@@ -1,6 +1,6 @@
-# Feature Launch Decision Engine
+# 🚀 Feature Launch Decision Engine
 
-A product experimentation framework designed to evaluate AI-powered feature rollouts before production deployment.
+A product experimentation framework designed to evaluate new feature rollouts before production deployment.
 
 This tool integrates statistical rigor with business impact modeling to support data-driven launch decisions.
 
@@ -8,7 +8,7 @@ This tool integrates statistical rigor with business impact modeling to support 
 
 ## 🎯 Problem Statement
 
-AI features often show promising improvements in early testing.  
+New product features often show promising improvements in early testing.  
 However, launching without proper statistical validation can lead to:
 
 - False positives (launching ineffective features)
@@ -16,7 +16,7 @@ However, launching without proper statistical validation can lead to:
 - Revenue misestimation
 - Long-term retention damage
 
-This project provides a structured decision engine to evaluate whether an AI feature should be launched.
+This project provides a structured decision engine to evaluate whether a feature should be launched.
 
 ---
 
@@ -57,8 +57,8 @@ Launch decision logic based on:
 
 For conversion testing:
 
-- H₀: AI feature does not improve conversion
-- H₁: AI feature improves conversion
+- H₀: New feature does not improve conversion
+- H₁: New feature improves conversion
 
 Z-score formula:
 
@@ -75,7 +75,7 @@ Power analysis is derived by rearranging the Z-test inequality to solve for requ
 ## 📊 Example Scenario
 
 Baseline conversion: 10%  
-AI conversion: 14%  
+New feature conversion: 14%  
 Projected monthly users: 100,000  
 Average revenue per conversion: $50  
 
@@ -85,7 +85,7 @@ Result:
 - ~$200,000 incremental monthly revenue
 - Retention not harmed
 
-Decision: ✅ Launch AI Feature
+Decision: ✅ Launch Feature
 
 ---
 
@@ -105,9 +105,9 @@ This framework bridges the gap between:
 - Statistical testing
 - Product decision-making
 - Revenue forecasting
-- AI feature validation
+- Feature validation
 
-It demonstrates applied experimentation design in a real-world AI product context.
+It demonstrates applied experimentation design in a real-world product context.
 
 ---
 
@@ -117,4 +117,4 @@ It demonstrates applied experimentation design in a real-world AI product contex
 - Bayesian A/B testing
 - Sequential testing correction
 - LTV-based evaluation
-- Cost-aware AI deployment modeling
+- Cost-aware deployment modeling
