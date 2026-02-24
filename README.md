@@ -1,4 +1,4 @@
-# 🚀 Feature Launch Decision Engine
+# Feature Launch Decision Engine
 
 A product experimentation framework designed to evaluate new feature rollouts before production deployment.
 
